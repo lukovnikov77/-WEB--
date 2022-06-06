@@ -1,0 +1,354 @@
+.header {
+    text-align: center;
+    /*background: rgb(0 0 0 / 58%);*/
+    background: rgb(48 43 72 / 85%);
+    color: white;
+    height: 165px;
+    font-size: 28px;
+    width: 100%;
+}
+
+.header p{
+    animation-duration: 2s;
+    animation-name: slideins;
+    font-size: 14px;
+}
+@keyframes slideins {
+    from {
+        margin-left: -20%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
+
+
+.header h1{
+    color: #fff;
+    text-shadow: #0033ab 1px 0 10px;
+    margin:0px ;
+}
+
+
+
+.menu{
+    bottom:0;
+    right:50%;
+}
+
+body{
+    background-image: url(bg.jpg);
+    margin: 0px;
+    background-size: 100%;
+    background-position: center;
+
+    font-size: 18px;
+    font-family: system-ui;
+}
+
+.menu a{
+    font-weight: bold;
+    text-shadow: #7897c5 2px 0 10px;
+     background-color: rgba(195, 219, 197, 0.24);
+    border: none;
+    color: #ffffff;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.menu a:hover{
+    background-color: #71bb74;
+}
+
+.content{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1350px;
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        opacity: 0.33;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.content p{
+background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+.ctx{
+    margin-top: 10px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,76,173,0.4374124649859944) 35%, rgba(115,122,171,1) 100%);
+
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+
+    font-size: 18px;
+    font-family: system-ui;
+}
+
+.content h1{
+    font-size: 32px;
+    line-height: 1.37;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: #0033ab 1px 1px 1px;
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: 800;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+
+.content h1{
+    text-align: center;
+}
+
+/*abonement*/
+.constructorPage {
+    padding-bottom: 24px;
+    margin-top: 10px;
+}
+.constructorPage .container .swiper-container {
+    padding-bottom: 24px;
+}
+
+.abonement {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    flex-direction: column;
+    padding: 32px;
+    border: 1px solid #7c7c7c;
+    background-color: #fff;
+    color: #000;
+    border-radius: 16px;
+    position: relative;
+    max-width: 420px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.abonement div{
+    display: block;
+}
+.abonement ul{
+    list-style: none;
+}
+
+
+.abonement-meta {
+    margin-bottom: 30px;
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    justify-content: center;
+}
+
+.abonement-image, .abonement-moreInfoBtn, .abonement .btn, .abonement .buttonLink {
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+.btn--primary {
+    background-color: #e60d2e;
+}
+
+.btn--normal {
+    font-size: 18px;
+    line-height: 1.43;
+    font-weight: 700;
+    width: 220px;
+    height: 40px;
+    border-radius: 12px;
+}
+
+.btn {
+    max-width: 100%;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    text-align: center;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+}
+[role=button], a, area, button, input:not([type=range]), label, select, summary, textarea {
+    touch-action: manipulation;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+.abonement-title {
+    font-size: 32px;
+    line-height: 1.37;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #0033ab;
+    margin-bottom: 16px;
+    text-align: center;
+    font-weight: 800;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+.abonement-moreInfoBtn {
+    font-size: 16px;
+    line-height: 1.43;
+    font-weight: 700;
+    color: #0033ab;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    justify-content: center;
+    background: 0 0;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.abonement-features {
+    margin-bottom: 24px;
+}
+ol, ul {
+    list-style: none;
+}
+.abonement-features-item {
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    align-items: center;
+    -webkit-justify-content: flex-start;
+    -moz-box-pack: start;
+    justify-content: flex-start;
+    margin-bottom: 8px;
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.abonement-features-item svg{
+    margin-right: 15px;
+}
+.abonement-meta {
+    margin-bottom: 30px;
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    justify-content: center;
+}
+.abonement-priceBlock {
+    text-align: center;
+}
+.abonement-priceType {
+    font-size: 12px;
+    line-height: 16px;
+    color: #7c7c7c;
+    text-align: center;
+    width: 100%;
+}
+
+.abonement-newPrice {
+    font-size: 32px;
+    line-height: 1.37;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3e3e3e;
+    text-align: center;
+}
